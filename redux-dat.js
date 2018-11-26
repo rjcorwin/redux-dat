@@ -41,7 +41,7 @@ class ReduxDatStore {
       evts.addEventListener('change', this._onPeerArchiveChange)
       */
       archive.watch(null, ({path}) => {
-        if (path == '/actions.json') this._onPeerArchiveChange()
+        if (path === 'actions.json' || path === '/actions.json') this._onPeerArchiveChange()
       })
 
     })
