@@ -1,6 +1,6 @@
 {
   "name": "redux-dat",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "redux-dat.js",
   "scripts": {
     "start": "./node_modules/.bin/polymer serve"
