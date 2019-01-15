@@ -5,7 +5,7 @@ This works by every peer having their own Dat Archive that they place actions in
 
 ## Installation and usage
 ```
-npm install --save 'redux-dat'
+npm install --save redux-dat
 ```
 
 The API is very similar to the standard Redux API. The difference is that instead of passing in an initialState, you pass in URLs of Dat Archives because state will be derived from the actions contained in those archives. Another difference is that dispatching an action is asynchronous by the time your subscribe callback is called. A subtle but sometimes important difference. Same goes for when your peers dispatch an action.
